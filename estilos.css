@@ -92,3 +92,25 @@ footer {
 }
 
 
+
+/* Adaptación para celulares */
+@media (max-width: 700px) {
+    .barra-navegacion ul {
+        flex-direction: column;
+    }
+
+    .barra-navegacion a {
+        text-align: center;
+        border-bottom: 1px solid #35516f;
+    }
+
+    .tarjeta {
+        width: 85%;
+        padding: 18px;
+    }
+}
+
+
+
+
+
