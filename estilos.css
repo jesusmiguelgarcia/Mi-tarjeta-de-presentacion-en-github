@@ -53,3 +53,42 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+/* Barra de navegación de los integrantes */
+.barra-navegacion {
+    background-color: #142b45;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.barra-navegacion ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barra-navegacion li {
+    margin: 0;
+}
+
+.barra-navegacion a {
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.barra-navegacion a:hover,
+.barra-navegacion a:focus {
+    background-color: #2e659c;
+    outline: none;
+}
+
+
